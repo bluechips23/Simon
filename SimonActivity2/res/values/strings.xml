@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Simon</string>
+	<string name="note">♪</string>
+	<string name="blank"></string>
+	<string name="listen">Listen to note {0}...</string>
+	<string name="play">Play note {0}...</string>
+	<string name="resign">Give up — new game!</string>
+	<string name="fail">Sorry, note {0} is wrong.</string>
+	<string name="start">Start another game...</string>
+	<string name="start1">Start a game...</string><string name="success">The melody was correct.</string>
+	<string name="more">Try {0} notes...</string>
+	
+
+
+
+
+
+
+
+
+
+</resources>

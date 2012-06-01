@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+	a:orientation="vertical" a:layout_width="fill_parent" a:layout_height="match_parent">
+	<LinearLayout a:id="@+id/top" a:layout_weight="1.0"
+		a:layout_height="100dp" a:layout_width="match_parent">
+		<TextView a:id="@+id/green" a:layout_weight="1.0"
+			a:layout_width="match_parent" a:layout_height="match_parent"
+			a:background="@color/green" a:gravity="center" a:enabled="false"
+			a:text="@string/note" a:textSize="80dp"></TextView>
+		<TextView a:id="@+id/red" a:layout_weight="1.0"
+			a:layout_width="match_parent" a:layout_height="match_parent"
+			a:background="@color/red" a:gravity="center" a:enabled="false"
+			a:text="@string/note" a:textSize="80dp"></TextView>
+	</LinearLayout>
+	<LinearLayout a:id="@+id/bottom" a:layout_weight="1.0"
+		a:layout_height="100dp" a:layout_width="match_parent">
+		<TextView a:id="@+id/yellow" a:layout_weight="1.0"
+			a:layout_width="match_parent" a:layout_height="match_parent"
+			a:background="@color/yellow" a:gravity="center" a:enabled="false"
+			a:text="@string/note" a:textSize="80dp"></TextView>
+		<TextView a:id="@+id/blue" a:layout_weight="1.0"
+			a:layout_width="match_parent" a:layout_height="match_parent"
+			a:background="@color/blue" a:gravity="center" a:enabled="false"
+			a:text="@string/note" a:textSize="80dp"></TextView>
+	</LinearLayout>
+	<TextView a:layout_weight="0.25" a:layout_width="match_parent"
+		a:textAppearance="?android:attr/textAppearanceMedium" a:layout_height="wrap_content"
+		a:gravity="center" a:id="@+id/output"></TextView>
+	<Button a:layout_weight="0.25" a:layout_height="25dp"
+		a:layout_width="match_parent" a:text="@string/start1" a:onClick="onStart"
+		a:id="@+id/start" a:enabled="true"></Button>
+</LinearLayout>
